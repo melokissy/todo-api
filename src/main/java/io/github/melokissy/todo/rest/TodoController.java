@@ -21,7 +21,8 @@ import io.github.melokissy.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://melokissy.github.io")
 public class TodoController {
 	
 	@Autowired
